@@ -119,7 +119,7 @@ https://www.jmooc.jp/ai-and-datascience/
 
 GitHub 公開しますので、アクセスしてください。
 
-http://github.com/ItaruKaneko/
+[講義資料のリンク(GitHub)]( https://github.com/ItaruKaneko/lecture_twuc_ds1/tree/master/md "link" )
 
 
 
@@ -150,10 +150,7 @@ Google Colab は google 社が提供するクラウド型のソフトウエア�
 [欠点]
 
 クラウドサービスなので、インターネット接続がないと動作しません。
-- [5. Google Colab](#5-google-colab)
-  - [5.1 Google Colab の特徴](#51-google-colab-の特徴)
-  - [5.1 アカウント準備](#51-アカウント準備)
-  - [Google Colab のアクセス](#google-colab-のアクセス)
+
 
 ## 5.1 アカウント準備
 
@@ -163,3 +160,6 @@ Google Colab は google 社が提供するクラウド型のソフトウエア�
 
 
 https://colab.research.google.com/
+
+
+![GoogleColab の画面](colab_01.jpg)
