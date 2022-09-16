@@ -162,4 +162,11 @@ Google Colab は google 社が提供するクラウド型のソフトウエア�
 https://colab.research.google.com/
 
 
+このような webpage が開きます。
+
+(2022/9/16 現在、サービスの内容は時期によって変わることがあります)
+
 ![GoogleColab の画面](colab_01.jpg)
+
+ログインボタンを押してログインします。
+
