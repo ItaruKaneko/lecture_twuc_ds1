@@ -166,7 +166,7 @@ https://colab.research.google.com/
 
 (2022/9/16 現在、サービスの内容は時期によって変わることがあります)
 
-![GoogleColab の画面](colab_01.jpg)
+![GoogleColab の画面](../../images/colab_010.jpg)
 
 ログインボタンを押してログインします。
 
