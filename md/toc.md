@@ -21,6 +21,6 @@
 ### 参考資料
 | タイトル           | 概要   |  リンク                                      |
 |:--           |:--     | :--                                         |
-| この講義について  | xxxx   | [about_this_lecture.md](reference/about_this_lecture.md) |
-| R言語基礎  | xxxx   | [r_language_reference.md](reference/r_language_reference.md) |
-| Google Colab 設定  | xxxx   | [googlecolab_setup.md](reference/googlecolab_setup.md) |
+| この講義について  | この講義について最初に説明する内容です   | [about_this_lecture.md](reference/about_this_lecture.md) |
+| R言語基礎  | R言語の基礎の基礎   | [r_language_reference.md](reference/r_language_reference.md) |
+| Google Colab 設定  | Google Colab を最初に使用する際の設定法   | [googlecolab_setup.md](reference/googlecolab_setup.md) |
