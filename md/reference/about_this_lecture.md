@@ -193,8 +193,7 @@ Google Colab を利用するには以下2つの準備が必要です。
 
 [練習2](../../r_notebook/lecture2_practice1.ipynb)
 
-<a href="https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/r_notebook/lecture1_practice1.ipynb"
- download="lecture1_practice1.ipnynb">練習1 Download</a>
+<a href="https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/r_notebook/lecture1_practice1.ipynb" download="lecture1_practice1.ipnynb">練習1 Download</a>
 
 
 
