@@ -3,12 +3,12 @@
 iris
 
 
-| データセット   | 内容                             | slide       |
-|:---------|:--|:-- |
-iris          |  アヤメの花びらの長さのデータベース | 7            |
-| cars          |                                  | 8            |
-| airquality    |                                  | 8            |
-| attitude      |                                  | 8            |
+| データセット | 内容                               | slide  |
+|:------------|:-----------------------------------|:-------|
+| iris        | 	Edgar Anderson's Iris Data     | 7      |
+| cars        |Speed and Stopping Distances of Cars| 8      |
+| airquality  |New York Air Quality Measurements   | 8      |
+| attitude    | The Chatterjee-Price Attitude Data | 8      |
 
 
 R data set の一覧
