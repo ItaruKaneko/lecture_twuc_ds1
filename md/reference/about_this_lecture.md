@@ -181,13 +181,24 @@ Google Colab を利用するには以下2つの準備が必要です。
 
 ## 5.4 練習用ファイル
 
-以下から練習用ファイルをダウンロードして利用できる。
+以下から練習用ファイルをダウンロードして利用できます。
+右クリックメニューで「名前を付けてリンクを保存」でローカルに保存してください。
 
-[練習1](../../r_notebook/lecture1_practice1.ipynb)
+この後示すファイルは、一旦ローカルにダウンロードしておいてから利用してください。
+
+![GoogleColab の画面](../../images/about_this_lecture_i010.jpg)
+
+
+[練習1](../../r_notebook/lecture1_practice1.ipynb "download")
 
 [練習2](../../r_notebook/lecture2_practice1.ipynb)
 
-以下の練習用ファイルは、パソコンからアップロードする必要があるので、まずローカルファイルシステムにダウンロードしてから、google colab を起動し、google colab のセッションファイルシステムにアップロードして使う。
+<a href="https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/r_notebook/lecture1_practice1.ipynb"
+ download="lecture1_practice1.ipnynb">練習1 Download</a>
+
+
+
+以下の練習用データは、必要な時に google colabのセッションファイルシステムにアップロードして使ってください。
 
 [normdist.csv](../../r_local/normdist.csv)
 
