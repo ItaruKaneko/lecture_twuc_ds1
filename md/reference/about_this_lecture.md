@@ -20,7 +20,8 @@
 - [5. Google Colab](#5-google-colab)
   - [5.2 Google Colab の特徴](#52-google-colab-の特徴)
   - [5.3 Google Colab の起動](#53-google-colab-の起動)
-  - [6 講義の位置づけ](#6-講義の位置づけ)
+  - [5.4 練習用ファイル](#54-練習用ファイル)
+- [6 講義の位置づけ](#6-講義の位置づけ)
 
 
 
@@ -178,7 +179,20 @@ Google Colab を利用するには以下2つの準備が必要です。
 
 [Google Colab の準備]( ../reference/r_reference.md )
 
-## 6 講義の位置づけ
+## 5.4 練習用ファイル
+
+以下から練習用ファイルをダウンロードして利用できる。
+
+[練習1](../../r_notebook/lecture1_practice1.ipynb)
+
+[練習2](../../r_notebook/lecture2_practice1.ipynb)
+
+以下の練習用ファイルは、パソコンからアップロードする必要があるので、まずローカルファイルシステムにダウンロードしてから、google colab を起動し、google colab のセッションファイルシステムにアップロードして使う。
+
+[normdist.csv](../../r_local/normdist.csv)
+
+
+# 6 講義の位置づけ
 
 
 [データサイエンス副専攻] (https://www.twcu.ac.jp/main/topics/2021/r08ji80000001qy1-img/datascienceoverview2.png)
