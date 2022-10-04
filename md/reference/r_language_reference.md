@@ -53,6 +53,17 @@ hensu_plus_1 <- hensu + 1
 
 途中、下線以外の記号は使えません。
 
+変数名の区切りに '.' (ドット) を使えます。
+
+変数名の例
+
+~~~~
+a
+x1
+This_is_very_long_name
+Longer_name.uing_dot.no_space.
+~~~~
+
 ## ベクトル
 
 c(1,0)
