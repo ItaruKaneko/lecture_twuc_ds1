@@ -220,7 +220,7 @@ t分布とp値を使って検定されます。
 
 # 尤度関数
 
-$ L(b | A) = \alpha P(A|B = b) $
+$P(b | A) = \alpha P(A|B = b)$
 
 
 ## AIC
