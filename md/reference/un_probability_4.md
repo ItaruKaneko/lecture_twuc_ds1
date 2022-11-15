@@ -49,7 +49,7 @@ $Y = a X + b$
 
 ロジスティック回帰では目的変数をこのような式であらわします。
 
-<span style="font-size:200%;"> 
+<span style="font-size:400%;"> 
 
  $p = \frac{1}{1 + e ^ {- (aX + b)}}$
 
