@@ -308,4 +308,7 @@ $Ax = \lambda x$
 
 参考
 
-【数学】固有値・固有ベクトルとは何かを可視化してみる - Qiita
+
+[(1) チョコレートパフェ 栄養素](https://calorie.slism.jp/200644/)
+
+[(2)【数学】固有値・固有ベクトルとは何かを可視化してみる - Qiita ](https://qiita.com/kenmatsu4/items/2a8573e3c878fc2da306)
