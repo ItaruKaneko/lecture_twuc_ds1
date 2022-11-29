@@ -257,13 +257,18 @@ $y = Ax + b$
 
 たとえばword2vec というツールはよく使われますが、これは単語をベクトル化します。単語をベクトル化する、というと難しく思えますが、単語の意味一つ一つを一つの次元とするだけです。
 
-重い = $\left[ \begin{matrix} 1\\ 0\\ 0 \end{matrix} \right]$, 
+```math
+\sqrt{3}
+```
+
+重い = $\left[ \begin{matrix} 1\\ 0\\ 0 \end{matrix} \right]$ , 
 広い = $\left[ \begin{matrix} 0\\ 1\\ 0 \end{matrix} \right]$,
 白い = $\left[ \begin{matrix} 0\\ 0\\ 1 \end{matrix} \right]$
 
 軽い = $\left[ \begin{matrix} -1\\ 0\\ 0 \end{matrix} \right]$,
 狭い = $\left[ \begin{matrix} 0\\ -1\\ 0 \end{matrix} \right]$,
 黒い = $\left[ \begin{matrix} 0\\ 0\\ -1 \end{matrix} \right]$
+
 
 とすれば、白い重い石と、黒い軽い石は似ていないが、白い重い石はそれよりは似ていると計算できます。
 また大きいは、重い、広いと、小さいは、軽い、狭いという意味が若干含まれますから、それを反映して、
