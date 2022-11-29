@@ -261,6 +261,13 @@ $y = Ax + b$
 \sqrt{3}
 ```
 
+```math
+重い = \left[ \begin{matrix} 1\\ 0\\ 0 \end{matrix} \right] , 
+広い = \left[ \begin{matrix} 0\\ 1\\ 0 \end{matrix} \right],
+白い = \left[ \begin{matrix} 0\\ 0\\ 1 \end{matrix} \right]
+```
+
+
 重い = $\left[ \begin{matrix} 1\\ 0\\ 0 \end{matrix} \right]$ , 
 広い = $\left[ \begin{matrix} 0\\ 1\\ 0 \end{matrix} \right]$,
 白い = $\left[ \begin{matrix} 0\\ 0\\ 1 \end{matrix} \right]$
