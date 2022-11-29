@@ -267,14 +267,11 @@ $y = Ax + b$
 白い = \left[ \begin{matrix} 0\\ 0\\ 1 \end{matrix} \right]
 ```
 
-
-重い = $\left[ \begin{matrix} 1\\ 0\\ 0 \end{matrix} \right]$ , 
-広い = $\left[ \begin{matrix} 0\\ 1\\ 0 \end{matrix} \right]$,
-白い = $\left[ \begin{matrix} 0\\ 0\\ 1 \end{matrix} \right]$
-
-軽い = $\left[ \begin{matrix} -1\\ 0\\ 0 \end{matrix} \right]$,
-狭い = $\left[ \begin{matrix} 0\\ -1\\ 0 \end{matrix} \right]$,
-黒い = $\left[ \begin{matrix} 0\\ 0\\ -1 \end{matrix} \right]$
+```math
+軽い = \left[ \begin{matrix} -1\\ 0\\ 0 \end{matrix} \right],
+狭い = \left[ \begin{matrix} 0\\ -1\\ 0 \end{matrix} \right],
+黒い = \left[ \begin{matrix} 0\\ 0\\ -1 \end{matrix} \right]
+```
 
 
 とすれば、白い重い石と、黒い軽い石は似ていないが、白い重い石はそれよりは似ていると計算できます。
