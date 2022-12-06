@@ -244,8 +244,8 @@ $\boldsymbol{x}$ のどの要素と $\boldsymbol{y}$ をグラフにしても直
 
 で計算できます。
 
-また  $\boldsymbol{x}$  と $\boldsymbol{y}$ がわかっていて $A$ , $b$ を求めたい場合、
-十分な数の $\boldsymbol{x}$ ,  $\boldsymbol{y}$  がわかっていれば、それらから、 $A$ , $b$ を逆算することは比較的簡単です。
+また  $\boldsymbol{x}$  と $\boldsymbol{y}$ がわかっていて $A$ , $\boldsymbol{b}$ を求めたい場合、
+十分な数の $\boldsymbol{x}$ ,  $\boldsymbol{y}$  がわかっていれば、それらから、 $A$ , $\boldsymbol{b}$ を逆算することは比較的簡単です。
 
 しかもその計算はわりと高速に行えるのです。
 大勢の人数でやれば人手でもけっこうおおきな問題が解ける程度に簡単で手早く計算できる。
