@@ -21,7 +21,14 @@
 
 ## 2. ログイン
 
-https://colab.research.google.com/
+以下のｗをリンクをクリッして、
+Gogle Colabolatory を別ウインドウで開く
+
+<a href=
+"https://colab.research.google.com/" 
+target="_blank">
+https://colab.research.google.com/ 
+</a>
 
 このような webpage が開きます。
 
@@ -158,7 +165,7 @@ print(x)
 # 4 サンプルコードの実行
 
 google drive にサンプルファイルをアップロードしておきます。
-lectur1_practice1.ipynb をダブルクリックすると、google colab を起動できます。
+practice1.ipynb をダブルクリックすると、google colab を起動できます。
 R言語の設定はすでにされています。
 
 以下のように、左上の目次のアイコンをクリックすると、目次が開きます。
