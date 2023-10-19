@@ -25,9 +25,9 @@
 | この講義について  | この講義について最初に説明する内容です   | [about_this_lecture.md](reference/about_this_lecture.md) |
 | R言語基礎  | R言語の基礎の基礎   | [r_language_reference.md](reference/r_language_reference.md) |
 | Google Colab 設定  | Google Colab を最初に使用する際の設定法   | [googlecolab_setup.md](reference/googlecolab_setup.md) |
-| 確率の補助資料1 |                              | [un_probability_.md](reference/un_probability.md) |
-| 確率の補助資料2 |                              | [un_probability2_.md](reference/un_probability2.md) |
-| 確率の補助資料3 |                              | [un_probability3_.md](reference/un_probability3.md) |
-| 確率の補助資料4 |                              | [un_probability4_.md](reference/un_probability4.md) |
-| 確率の補助資料5 |                              | [un_probability5_.md](reference/un_probability5.md) |
-| 確率の補助資料6 |                              | [un_probability6_.md](reference/un_probability6.md) |
+| 確率の補助資料1 | 確率、対立仮説、帰無仮説       | [un_probability_.md](reference/un_probability.md) |
+| 確率の補助資料2 | 相関係数、線形回帰            | [un_probability2_.md](reference/un_probability2.md) |
+| 確率の補助資料3 | 線形分類、マハラノビス距離    | [un_probability3_.md](reference/un_probability3.md) |
+| 確率の補助資料4 | ロジスティック回帰           | [un_probability4_.md](reference/un_probability4.md) |
+| 確率の補助資料5 | 線形代数、主成分分析         | [un_probability5_.md](reference/un_probability5.md) |
+| 確率の補助資料6 | ランダムフォレスト、アンサンブル学習、 決定木  | [un_probability6_.md](reference/un_probability6.md) |
