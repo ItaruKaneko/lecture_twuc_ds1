@@ -1,15 +1,19 @@
-# 文理融合データサイエンスI 全体目次
+# 文理融合データサイエンスI 全体目次(GitHub)
 (2024/4/4更新)
 
-## GitHub
+
+### シラバス(学外に公開されている内容)
+[リンク 2024/4/4参照](https://office3.bb.twcu.ac.jp/campusweb/campussquare.do?_flowExecutionKey=_cD314968E-904A-E725-1CBC-50EC6CBEEC59_k9B9EFC98-C039-F1D7-B7E5-7DB90613556C)
 
 ### 講義資料
 
 
 | 回           | 概要   |  リンク                                      |
 |:--           |:--     | :--                                         |
-| 第1回、第2回  | xxxx   | [ds_I_s1_and_2.md](text/ds_IIa_s1_and_2) |
-| 第3回、第4回  | xxxx   | [ds_I_s3_and_4.md](text/ds_IIa_s3_and_4.md)  |
+| 第1回  | xxxx   | [ds_I_s1.md](text/ds_I_s1.mpd) |
+| 第2回  | xxxx   | [ds_I_s2.md](text/ds_I_s2.mpd) |
+| 第3回  | xxxx   | [ds_I_s3.md](text/ds_I_s3.mpd) |
+| 第4回  | xxxx   | [ds_I_s4.md](text/ds_I_s4.mpd) |
 | 第5回、第6回  | xxxx   | 準備中                                      |
 | 第7回、第8回  | xxxx   | 準備中                                      |
 | 第9回、第10回 | xxxx   | 準備中                                      |
