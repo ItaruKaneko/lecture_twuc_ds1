@@ -108,12 +108,6 @@ R
 
 ![GoogleColab の画面](../../images/colab_114.jpg)
 
-もう一度 R 言語が実行できるかどうかを確認します。
-
-
-
-
-![GoogleColab の画面](../../images/colab_116.jpg)
 
 
 ## 3.3 動作の確認
