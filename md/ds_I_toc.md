@@ -40,3 +40,4 @@
 | 確率の補助資料4 | ロジスティック回帰           | [un_probability_4.md](reference/un_probability_4.md) |
 | 確率の補助資料5 | 線形代数、主成分分析         | [un_probability_5.md](reference/un_probability_5.md) |
 | 確率の補助資料6 | ランダムフォレスト、アンサンブル学習、 決定木  | [un_probability_6.md](reference/un_probability_6.md) |
+| 確率の補助資料6 | 確率の3つの考え方  | [un_probability_7.md](reference/un_probability_7.md) |
