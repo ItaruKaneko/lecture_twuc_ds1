@@ -49,8 +49,6 @@ mean(data1[, 2]) + 1.96 * sd(data1[, 2])
 ~~~~
 data
 
-reado
-
 read.csv
 
 vector
