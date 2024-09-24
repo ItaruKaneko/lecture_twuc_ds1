@@ -5,6 +5,9 @@
 1. 仮説検定
 1. 群衆の知恵
 1. コイントス
+
+    [https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability.md)
+
 ### 1.2. データサイエンスI
 1. 正規分布
 1. 仮説検定
