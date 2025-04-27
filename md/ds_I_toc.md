@@ -1,9 +1,9 @@
-# 文理融合データサイエンスI 全体目次(GitHub)
-(2024/4/4更新)
+# DS基礎 github資料 全体目次(GitHub)
+(2025/4/14更新)
 
 
 ### シラバス(学内のみに公開されている内容)
-[リンク 2024/4/4参照](https://office3.bb.twcu.ac.jp/campusweb/campussquare.do?_flowExecutionKey=_cD314968E-904A-E725-1CBC-50EC6CBEEC59_k9B9EFC98-C039-F1D7-B7E5-7DB90613556C)
+[リンク 2025/4/14参照](https://office3.bb.twcu.ac.jp/campusweb/campussquare.do?_flowExecutionKey=_cD314968E-904A-E725-1CBC-50EC6CBEEC59_k9B9EFC98-C039-F1D7-B7E5-7DB90613556C)
 
 ### 講義資料
 
