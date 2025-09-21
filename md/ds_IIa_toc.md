@@ -7,24 +7,28 @@
 ### 講義資料
 
 
-| 回           | 概要   |  リンク                                      |
-|:--           |:--     | :--                                         |
-| 第1回 | データ・AI利活用の最新動向，データの加工（1）・提示した資料   | [ds_IIa_s1.md](text/ds_IIa_s1),  [ds_IIa_s1_and_2.md](text/ds_IIa_s1_and_2)
- |
-| 第2回 | データの加工(2)   | [ds_IIa_s1_and_2.md](text/ds_IIa_s1_and_2) |
-| 第3回 | 回帰分析(1) | [ds_IIa_s3_and_4.md](text/ds_IIa_s3_and_4.md)    |
-| 第4回 | 回帰分析(2) | [ds_IIa_s3_and_4.md](text/ds_IIa_s3_and_4.md)    |
-| 第5回 | 判別分析(1)   | 準備中                                        |
-| 第6回 | 判別分析(2)   | 準備中                                        |
-| 第7回 | 回帰分析(3)   | 準備中                                        |
-| 第8回 | 回帰分析(4)   | 準備中                                        |
-| 第9回 | 主成分分析(1)   | 準備中                                      |
-| 第10回 | 主成分分析(2)   | 準備中                                     |
-| 第11回 | クラスター分析(1)   | 準備中                                 |
-| 第12回 | クラスター分析(2)   | 準備中                                 |
-| 第13回 | アンサンブル学習・最終レポート説明   | 準備中                  |
-| 第14回 |データサイエンスの倫理・最終レポート説明xxx   | 準備中          |
-| 第15回 | まとめ・最終レポート説明   | 準備中                           |
+
+| 回数   | タイトル                     |github資料                           |
+|--------|------------------------------|------------------------------------|
+| 第15回 | データサイエンスとELSI       | |
+| 第14回 | 最終レポートレビュー会       | |
+| 第13回 | 最終演習(2)                  | |
+| 第12回 | 最終演習(1)                  | |
+| 第11回 | アンサンブル学習             | |
+| 第10回 | クラスター分析(2)            | |
+| 第9回  | クラスター分析(1)            | |
+| 第8回  | 主成分分析             | [ds_IIa_s8.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s8.md) |
+| 第7回  | ロジスティック回帰     | [ds_IIa_s7.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s7.md) |
+| 第6回  | 回帰分析(3)                  | |
+| 第5回  | 判別分析(2)                  | |
+| 第4回  | 判別分析(1)            | [ds_IIa_s4.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s4.md) |
+| 第3回  | 回帰分析(2)                  |                       |
+| 第2回  | 回帰分析(1)            | [ds_IIa_s2.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s2.md) |
+| 第2回  | 回帰分析(1)                  | |
+| 第1回  | ガイダンス・準備       | [ds_IIa_s1.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s1.md) |
+| 第1回  | ガイダンス・準備       | [un_probability.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability.md) |
+| 第1回  | ガイダンス・準備       | [googlecolab_setup.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/googlecolab_setup.md) |
+
 
 
 
