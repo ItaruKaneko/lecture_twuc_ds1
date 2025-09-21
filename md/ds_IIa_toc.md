@@ -10,24 +10,21 @@
 
 | 回数   | タイトル                     |github資料                           |
 |--------|------------------------------|------------------------------------|
-| 第15回 | データサイエンスとELSI       | |
-| 第14回 | 最終レポートレビュー会       | |
-| 第13回 | 最終演習(2)                  | |
-| 第12回 | 最終演習(1)                  | |
-| 第11回 | アンサンブル学習             | |
-| 第10回 | クラスター分析(2)            | |
-| 第9回  | クラスター分析(1)            | |
-| 第8回  | 主成分分析             | [ds_IIa_s8.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s8.md) |
-| 第7回  | ロジスティック回帰     | [ds_IIa_s7.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s7.md) |
-| 第6回  | 回帰分析(3)                  | |
-| 第5回  | 判別分析(2)                  | |
-| 第4回  | 判別分析(1)            | [ds_IIa_s4.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s4.md) |
+| 第1回  | ガイダンス・準備       | [ds_IIa_s1.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s1.md), [un_probability.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability.md), [googlecolab_setup.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/googlecolab_setup.md) |
+| 第2回  | 回帰分析(1)            | [ds_IIa_s1_and_2.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s1_and_2.md) , [un_probability_2.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability_2.md) |
 | 第3回  | 回帰分析(2)                  |                       |
-| 第2回  | 回帰分析(1)            | [ds_IIa_s2.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s2.md) |
-| 第2回  | 回帰分析(1)                  | |
-| 第1回  | ガイダンス・準備       | [ds_IIa_s1.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s1.md) |
-| 第1回  | ガイダンス・準備       | [un_probability.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability.md) |
-| 第1回  | ガイダンス・準備       | [googlecolab_setup.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/googlecolab_setup.md) |
+| 第4回  | 判別分析(1)            | [ds_IIa_s3_and_4.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s3_and_4.md), [un_probability_3.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability_3.md) |
+| 第5回  | 判別分析(2)                  | |
+| 第6回  | 回帰分析(3)                  | |
+| 第7回  | ロジスティック回帰     | [ds_IIa_s7.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s7.md), [un_probability_4.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability_4.md) |
+| 第8回  | 主成分分析             | [ds_IIa_s8.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/text/ds_IIa_s8.md), [un_probability_5.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability_5.md) |
+| 第9回  | クラスター分析(1)            | |
+| 第10回 | クラスター分析(2)            | |
+| 第11回 | アンサンブル学習             | [un_probability_6.md](https://github.com/ItaruKaneko/lecture_twuc_ds1/blob/master/md/reference/un_probability_6.md) |
+| 第12回 | 最終演習(1)                  | |
+| 第13回 | 最終演習(2)                  | |
+| 第14回 | 最終レポートレビュー会       | |
+| 第15回 | データサイエンスとELSI       | |
 
 
 
