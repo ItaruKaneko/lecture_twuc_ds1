@@ -1,5 +1,6 @@
-# 文理融合データサイエンスI 全体目次
-(2024/4/4更新)
+# データ分析/データサイエンスIIA 補助資料
+# 全体目次
+(2025/9/15更新)
 
 ## GitHub
 
@@ -8,10 +9,11 @@
 
 | 回           | 概要   |  リンク                                      |
 |:--           |:--     | :--                                         |
-| 第1回 | データ・AI利活用の最新動向，データの加工（1）・提示した資料   | [ds_I_s1_and_2.md](text/ds_IIa_s1_and_2) |
-| 第2回 | データの加工(2)   | [ds_I_s1_and_2.md](text/ds_IIa_s1_and_2) |
-| 第3回 | 回帰分析(1) | [ds_I_s3_and_4.md](text/ds_IIa_s3_and_4.md)    |
-| 第4回 | 回帰分析(2) | [ds_I_s3_and_4.md](text/ds_IIa_s3_and_4.md)    |
+| 第1回 | データ・AI利活用の最新動向，データの加工（1）・提示した資料   | [ds_IIa_s1.md](text/ds_IIa_s1),  [ds_IIa_s1_and_2.md](text/ds_IIa_s1_and_2)
+ |
+| 第2回 | データの加工(2)   | [ds_IIa_s1_and_2.md](text/ds_IIa_s1_and_2) |
+| 第3回 | 回帰分析(1) | [ds_IIa_s3_and_4.md](text/ds_IIa_s3_and_4.md)    |
+| 第4回 | 回帰分析(2) | [ds_IIa_s3_and_4.md](text/ds_IIa_s3_and_4.md)    |
 | 第5回 | 判別分析(1)   | 準備中                                        |
 | 第6回 | 判別分析(2)   | 準備中                                        |
 | 第7回 | 回帰分析(3)   | 準備中                                        |
