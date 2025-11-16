@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>5次元→3次元表示 (軸選択)</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div>
+    X軸:
+    <select id="axisX"></select>
+    Y軸:
+    <select id="axisY"></select>
+    Z軸:
+    <select id="axisZ"></select>
+    <button onclick="updatePlot()">更新</button>
+  </div>
+  <div id="plot" style="width:100%;height:90vh;"></div>
+
+  <script>
+    const N = 100;
+
+    // 2次元ランダムデータ
+    const u = Array.from({length: N}, () => Math.random()*2 - 1);
+    const v = Array.from({length: N}, () => Math.random()*2 - 1);
+
+    // 5次元への線形写像 (5x2)
+    const A = [
+      [1.0, 0.5],
+      [0.3, -0.8],
+      [0.7, 0.2],
+      [-0.4, 1.0],
+      [0.6, -0.3]
+    ];
+
+    // 5次元データ生成
+    const data5D = [];
+    for (let i=0; i<N; i++) {
+      const vec = [];
+      for (let j=0; j<5; j++) {
+        vec.push(A[j][0]*u[i] + A[j][1]*v[i]);
+      }
+      data5D.push(vec);
+    }
+
+    // 軸選択用のセレクトボックスに項目追加
+    const axisNames = ["Axis 0","Axis 1","Axis 2","Axis 3","Axis 4"];
+    ["axisX","axisY","axisZ"].forEach(id => {
+      const sel = document.getElementById(id);
+      axisNames.forEach((name, idx) => {
+        const opt = document.createElement("option");
+        opt.value = idx;
+        opt.text = name;
+        sel.appendChild(opt);
+      });
+    });
+    // 初期選択
+    document.getElementById("axisX").value = 0;
+    document.getElementById("axisY").value = 2;
+    document.getElementById("axisZ").value = 4;
+
+    // 描画関数
+    function updatePlot() {
+      const axisX = parseInt(document.getElementById("axisX").value);
+      const axisY = parseInt(document.getElementById("axisY").value);
+      const axisZ = parseInt(document.getElementById("axisZ").value);
+
+      const x = data5D.map(d => d[axisX]);
+      const y = data5D.map(d => d[axisY]);
+      const z = data5D.map(d => d[axisZ]);
+
+      const trace = {
+        type: 'scatter3d',
+        mode: 'markers',
+        x, y, z,
+        marker: { size: 5, color: z, colorscale: 'Viridis', showscale: true }
+      };
+
+      const layout = {
+        scene: {
+          xaxis: { title: `Axis ${axisX}` },
+          yaxis: { title: `Axis ${axisY}` },
+          zaxis: { title: `Axis ${axisZ}` }
+        }
+      };
+
+      Plotly.newPlot('plot', [trace], layout);
+    }
+
+    // 初期描画
+    updatePlot();
+  </script>
+</body>
+</html>

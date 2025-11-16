@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Scatter (20 points)</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    #plot { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="plot"></div>
+
+  <!-- Plotly CDN -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script>
+    // 例: 20個の3次元データ（ここをあなたの実データに置き換えてください）
+    const x = [1,2,3,4,5,  6,7,8,9,10,  11,12,13,14,15,  16,17,18,19,20];
+    const y = [5,4,3,2,1,  2,3,4,5,6,   7,8,9,10,11,     10,9,8,7,6];
+    const z = [10,12,15,13,11,  9,8,7,6,5,  4,5,6,7,8,   12,11,9,8,10];
+
+    const trace = {
+      type: 'scatter3d',
+      mode: 'markers',
+      x, y, z,
+      marker: {
+        size: 6,
+        color: z,         // 値に応じて色付け（不要なら固定色に変更）
+        colorscale: 'Viridis',
+        showscale: true
+      },
+      text: x.map((_, i) => `#${i+1}`), // ホバーラベル
+      hovertemplate: 'Point %{text}<br>x=%{x}<br>y=%{y}<br>z=%{z}<extra></extra>'
+    };
+
+    const layout = {
+      scene: {
+        xaxis: { title: 'X' },
+        yaxis: { title: 'Y' },
+        zaxis: { title: 'Z' }
+      },
+      margin: { l: 0, r: 0, t: 0, b: 0 }
+    };
+
+    Plotly.newPlot('plot', [trace], layout, {responsive: true});
+  </script>
+</body>
+</html>
