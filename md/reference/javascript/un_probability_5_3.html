@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>PCA 5次元→3次元表示（本質2次元データ）</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 12px; }
+    #plot { width: 100%; height: 80vh; }
+    select, button { margin-right: 8px; }
+  </style>
+</head>
+<body>
+  <h3>「本質2次元」→ PCA → 3次元表示</h3>
+  <div>
+    X軸: <select id="axisX"></select>
+    Y軸: <select id="axisY"></select>
+    Z軸: <select id="axisZ"></select>
+    <button id="updateBtn">更新</button>
+    <span id="explainedLabel"></span>
+  </div>
+  <div id="plot"></div>
+
+  <script>
+    const N = 200; // データ数
+    const D = 5;   // 次元数
+
+    // 1) 本質的に2次元のデータを生成
+    // まず2次元の乱数を作り、それを5次元に線形写像する
+    const u = Array.from({length: N}, () => Math.random()*2 - 1);
+    const v = Array.from({length: N}, () => Math.random()*2 - 1);
+
+    // 5×2 の写像行列（ランダムに設定）
+    const A = [
+      [1.0, 0.5],
+      [0.3, -0.8],
+      [0.7, 0.2],
+      [-0.4, 1.0],
+      [0.6, -0.3]
+    ];
+
+    const data5D = [];
+    for (let i=0; i<N; i++) {
+      const vec = [];
+      for (let j=0; j<D; j++) {
+        vec.push(A[j][0]*u[i] + A[j][1]*v[i]);
+      }
+      data5D.push(vec);
+    }
+
+    // 2) 列中心化
+    function columnMeans(X) {
+      const n = X.length, d = X[0].length;
+      const means = Array(d).fill(0);
+      for (let j=0; j<d; j++) {
+        let s = 0;
+        for (let i=0; i<n; i++) s += X[i][j];
+        means[j] = s/n;
+      }
+      return means;
+    }
+    function centerColumns(X, means) {
+      const n = X.length, d = X[0].length;
+      return X.map(row => row.map((val,j) => val - means[j]));
+    }
+    const means = columnMeans(data5D);
+    const Xc = centerColumns(data5D, means);
+
+    // 3) 共分散行列
+    const Xt = numeric.transpose(Xc);
+    let S = numeric.dot(Xt, Xc);
+    S = numeric.mul(1/(N-1), S);
+
+    // 4) 固有分解
+    const eig = numeric.eig(S);
+    const eigenValues = eig.lambda.x;
+    const eigenVectors = eig.E.x;
+
+    // 5) 固有値で降順ソート
+    const idx = Array.from({length:D},(_,k)=>k).sort((a,b)=>eigenValues[b]-eigenValues[a]);
+    const sortedValues = idx.map(k=>eigenValues[k]);
+    const sortedVectors = idx.map(k=>eigenVectors.map(row=>row[k]));
+    const V = numeric.transpose(sortedVectors);
+
+    // 6) 主成分得点
+    const T = numeric.dot(Xc, V);
+
+    // 7) 寄与率
+    const totalVar = sortedValues.reduce((a,b)=>a+b,0);
+    const explained = sortedValues.map(v=>v/totalVar);
+
+    // UI 初期化
+    const axisNames = ["PC1","PC2","PC3","PC4","PC5"];
+    ["axisX","axisY","axisZ"].forEach(id=>{
+      const sel=document.getElementById(id);
+      axisNames.forEach((name,idx)=>{
+        const opt=document.createElement("option");
+        opt.value=idx;
+        opt.text=`${name} (寄与率 ${(explained[idx]*100).toFixed(1)}%)`;
+        sel.appendChild(opt);
+      });
+    });
+    document.getElementById("axisX").value=0;
+    document.getElementById("axisY").value=1;
+    document.getElementById("axisZ").value=2;
+
+    // 描画関数
+    function updatePlot(){
+      const axisX=parseInt(document.getElementById("axisX").value);
+      const axisY=parseInt(document.getElementById("axisY").value);
+      const axisZ=parseInt(document.getElementById("axisZ").value);
+
+      const x=T.map(row=>row[axisX]);
+      const y=T.map(row=>row[axisY]);
+      const z=T.map(row=>row[axisZ]);
+
+      const trace={
+        type:"scatter3d",
+        mode:"markers",
+        x,y,z,
+        marker:{size:5,color:z,colorscale:"Viridis",showscale:true}
+      };
+
+      const layout = {
+        scene: {
+          xaxis: { title: `PC${axisX+1}`, range: [-2, 2] },
+          yaxis: { title: `PC${axisY+1}`, range: [-2, 2] },
+          zaxis: { title: `PC${axisZ+1}`, range: [-2, 2] }
+        },
+        margin: { l:0, r:0, t:30, b:0 },
+        title: "PCA主成分空間の3D表示"
+      };
+
+      // const layout={
+      //   scene:{
+      //     xaxis:{title:`PC${axisX+1}`},
+      //     yaxis:{title:`PC${axisY+1}`},
+      //     zaxis:{title:`PC${axisZ+1}`}
+      //   },
+      //   margin:{l:0,r:0,t:30,b:0},
+      //   title:"PCA主成分空間の3D表示"
+      // };
+
+      Plotly.newPlot("plot",[trace],layout);
+
+      document.getElementById("explainedLabel").textContent=
+        `選択した3軸の累積寄与率: ${((explained[axisX]+explained[axisY]+explained[axisZ])*100).toFixed(1)}%`;
+    }
+
+    document.getElementById("updateBtn").addEventListener("click",updatePlot);
+    updatePlot();
+  </script>
+</body>
+</html>
