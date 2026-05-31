@@ -1,10 +1,3 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
--
-
-
  [確率統計の理解](#確率統計の理解)
 	- [1 確率](#1-確率)
 	- [2 確率に関する仮説と検証](#2-確率に関する仮説と検証)
