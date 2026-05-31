@@ -236,9 +236,7 @@ $$
 とすると、t分布は、
 
 $$
-
 f(t) = \dfrac{\Gamma\left(\dfrac{\nu+1}{2}\right)}{\sqrt{\nu\pi}\,\Gamma\left(\dfrac{\nu}{2}\right)} \left(1 + \dfrac{t^2}{\nu}\right)^{-\dfrac{\nu+1}{2}}
-
 $$
 
 なぜ正規分布のかわりに t分布を使うことがあるのかを説明しましょう。
